@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Ukulele of Time</string>
+
+    <string name="action_start_ble_advertising">Start BLE Advertising</string>
+    <string name="action_stop_ble_advertising">Stop BLE Advertising</string>
+    <string name="action_songs_list">Songs Cheat Sheet</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_message">Bluetooth is not turned on.\nWould you like to turn it on right now?</string>
+    <string name="bluetooth_not_enabled">Bluetooth not enabled</string>
+    <string name="bluetooth_advertising_on">Bluetooth LE Advertising: ON</string>
+    <string name="bluetooth_advertising_off">Bluetooth LE Advertising: OFF</string>
+
+    <string name="song_zeldas_lullaby">Zelda\'s Lullaby</string>
+    <string name="song_eponas">Epona\'s Song</string>
+    <string name="song_sarias">Saria\'s Song</string>
+    <string name="song_suns">Sun\'s Song</string>
+    <string name="song_of_time">Song of time</string>
+    <string name="song_of_storm">Song of Storms</string>
+    <string name="song_minuet_of_forest">Minuet of Forest</string>
+    <string name="song_bolero_of_fire">Bolero of Fire</string>
+    <string name="song_serenade_of_water">Serenade of Water</string>
+    <string name="song_requiem_of_spirit">Requiem of Spirit</string>
+    <string name="song_nocturne_of_shadow">Nocturne of Shadow</string>
+    <string name="song_prelude_of_light">Prelude of Light</string>
+    <string name="hey_listen">Hey! Listen! You suck at childhood memories…so here!</string>
+    <string name="okay">Okay… :(</string>
+
+    <string name="instructions">This app allows you to play all the amazing and critically
+acclaimed songs from the award winning game \'The Legend of Melda - The Ukulele of Time\'!!\n
+\n
+Turning ON Bluetooth Low Energy (BLE) Advertising will broadcast a Custom BLE Service every time a song
+is correctly played. The song\'s notes will also be broadcast along with the advertisement
+inside the Custom Service Data payload. Each note is segmented into 4-bits inside the
+Service Data payload byte array.\n
+\n
+The left most 4-bits of each byte will be a note and the rightmost 4-bits will be another
+note.\n
+\n
+Example:\n
+[1010100, 110101, 1000011]\n
+1st byte: 0101 0100 = C Left + C Up\n
+\n
+Table:\n
+A - 0001\n
+C Down - 0010\n
+C Right - 0011\n
+C Up - 0100\n
+C Left - 0101\n
+\n
+BLE Custom 128-bit UUID\n
+UKULELE_SERVICE = 8F2A9690-FD82-4AA0-953E-79EF126BA95D\n
+\n
+Challenge:\n
+1. Create an app that scans and listens for the above custom ble service.\n
+2. Grab the service\'s data byte array.\n
+3. Parse out the notes in the played song.\n
+4. Print out on screen the notes in the correct order along with the name of the song.\n
+    </string>
+    <string name="instructions_title">Challenge Instructions</string>
+    <string name="instructions_okay">Okay to okay, OK?</string>
+
+</resources>

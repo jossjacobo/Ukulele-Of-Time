@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/blue_darker</color>
+    <color name="colorPrimaryDark">@color/blue_darkest</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#282828</color>
+    <color name="black_10_percent_transparency">#1a000000</color>
+    <color name="white_10_percent_transparency">#1affffff</color>
+
+    <color name="red">#C55352</color>
+    <color name="red_darker">#BE302F</color>
+    <color name="red_darkest">#A31B18</color>
+
+    <color name="green">#5A8E66</color>
+    <color name="green_darker">#518161</color>
+    <color name="green_darkest">#44714A</color>
+
+    <color name="yellow">#EFC043</color>
+    <color name="yellow_darker">#E8B643</color>
+    <color name="yellow_darkest">#B17720</color>
+
+    <color name="blue">#2D408F</color>
+    <color name="blue_darker">#213386</color>
+    <color name="blue_darkest">#112680</color>
+
+</resources>

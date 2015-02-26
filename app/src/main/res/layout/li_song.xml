@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    tools:background="@color/white">
+
+    <TextView
+        android:id="@+id/song_name"
+        style="@style/MatchWidthWrapHeight"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:text="Song of Time"
+        />
+
+    <ImageView
+        android:id="@+id/song_image"
+        style="@style/Wrap"
+        tools:src="@mipmap/song_of_time"
+        android:scaleType="centerInside"
+        />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            colorPrimary is used for the default action bar background
+            colorPrimaryDark is used for the status bar
+            colorAccent is used as the default value for colorControlActivated
+                which is used to tint widgets
+        -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+
+        <item name="android:windowBackground">@color/blue_darkest</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchHeight">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="MatchWidthWrapHeight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="FloatingButton" parent="Wrap">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="FloatingButton.Yellow" parent="FloatingButton">
+        <item name="fab_colorNormal">@color/yellow</item>
+        <item name="fab_colorPressed">@color/yellow_darker</item>
+        <item name="fab_colorRipple">@color/yellow_darkest</item>
+    </style>
+
+    <style name="FloatingButton.Blue" parent="FloatingButton">
+        <item name="fab_colorNormal">@color/blue</item>
+        <item name="fab_colorPressed">@color/blue_darker</item>
+        <item name="fab_colorRipple">@color/blue_darkest</item>
+    </style>
+
+    <style name="FloatingButton.Red" parent="FloatingButton">
+        <item name="fab_colorNormal">@color/red</item>
+        <item name="fab_colorPressed">@color/red_darker</item>
+        <item name="fab_colorRipple">@color/red_darkest</item>
+    </style>
+
+    <style name="FloatingButton.Green" parent="FloatingButton">
+        <item name="fab_colorNormal">@color/green</item>
+        <item name="fab_colorPressed">@color/green_darker</item>
+        <item name="fab_colorRipple">@color/green_darkest</item>
+    </style>
+
+</resources>
