@@ -48,5 +48,5 @@ We will play several songs in random order with one of our test devices and veri
 First 10 people to successfully complete the challenge will receive an Ocarina!!
 
 ## Resources
-
+- [Google Play Store - Ukulele of Time](https://play.google.com/store/apps/details?id=com.joss.ukuleleoftime)
 - [bluetooth-le](https://developer.android.com/guide/topics/connectivity/bluetooth-le.html)
